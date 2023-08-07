@@ -9,4 +9,10 @@ body {
 nav {
   height: 7em;
   display: flex;
+  padding: 2em 3.6em;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 10em;
 }
