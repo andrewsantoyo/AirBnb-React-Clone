@@ -1,11 +1,12 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero'
 
 function App() {
   return (
     <div>
       <Navbar /> 
-      <h1>App Component</h1>
+      <Hero />
       <a href="https://reactjs.org"
         target="_blank"
         rel="noopener noreferrer">
