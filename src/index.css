@@ -14,6 +14,14 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .nav--logo {
   max-width: 10em;
 }
@@ -38,4 +46,23 @@ section {
 
 .hero--text {
   margin-top: 0;
+}
+
+.card {
+  width: 11em;
+  font-size: .75em;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: .55em;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: .9em;
 }
