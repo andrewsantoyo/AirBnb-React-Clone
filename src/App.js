@@ -9,7 +9,8 @@ function App() {
     return (
         <Card 
             key={item.id}
-            item={item}
+            // Spread in object literals.
+            {...item}
         />
     )
 }) 
