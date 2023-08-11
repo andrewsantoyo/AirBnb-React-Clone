@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-  height: 7em;
+  height: 6em;
   display: flex;
   padding: 2em 3.6em;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
@@ -23,11 +23,13 @@ nav {
 }
 
 .nav--logo {
-  max-width: 10em;
+  max-width: 5.7em;
+  max-height: 2.5em;
+  /* max-width: 10em; */
 }
 
 section {
-  padding: 2em;
+  padding: 1.25em;
 }
 
 .hero {
@@ -36,7 +38,7 @@ section {
 }
 
 .hero--photo {
-  max-width: 400px;
+  max-width: 25em;
   align-self: center;
 }
 
@@ -48,14 +50,30 @@ section {
   margin-top: 0;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.4em;
+  overflow-x: auto;
+}
+
 .card {
-  width: 11em;
+  width: 13em;
   font-size: .75em;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card--image {
   width: 100%;
   border-radius: .55em;
+  margin-bottom: .55em;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card--stats {
@@ -65,4 +83,8 @@ section {
 
 .card--star {
   height: .9em;
+}
+
+.card--price {
+  margin-top: auto;
 }
